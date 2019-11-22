@@ -169,3 +169,11 @@ footer{
   color: #33475b;
   line-height: 40px;
 }
+.free span{
+  margin-left: 10%;
+  text-transform: capitalize;
+}
+.free span img{
+  width: 20px;
+  margin-right: 20px;
+}
