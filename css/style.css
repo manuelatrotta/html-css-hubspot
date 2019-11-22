@@ -262,9 +262,9 @@ footer{
 .table {
   width: 85%;
   margin: 0 auto;
-  height: 250px;
-  background-color: red;
+
 }
+
 .table::after{
   content: "";
   display: table;
@@ -276,7 +276,6 @@ footer{
   float: left;
   width: 20%;
   line-height: 30px;
-  background-color: green;
   text-align: center;
   vertical-align: middle;
 }
@@ -288,4 +287,21 @@ footer{
 }
 .fourth{
   border-left: 5px solid #fff;
+}
+
+.table h2{
+  font-size: 40px;
+  color: #fff;
+}
+.table h2 span{
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.table p{
+  color: #fff;
+  font-size: 15px;
+}
+.col.fourth img{
+  margin: 8px;
 }
