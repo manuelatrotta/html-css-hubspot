@@ -196,7 +196,6 @@ footer{
 }
 .container-hub{
   width: 85%;
-  height: 200px;
   background-color: pink;
   margin:0 auto;
 }
@@ -209,7 +208,6 @@ footer{
   display: inline-block;
   background-color: red;
   width:30%;
-  height: 200px;
 }
 .hub.marketing{
   float: left;
