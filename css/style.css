@@ -275,7 +275,10 @@ footer{
   display: inline-block;
   float: left;
   width: 20%;
+  line-height: 30px;
   background-color: green;
+  text-align: center;
+  vertical-align: middle;
 }
 .col:first-child{
   margin-left: 10%;
