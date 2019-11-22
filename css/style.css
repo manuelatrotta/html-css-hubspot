@@ -275,7 +275,6 @@ footer{
   display: inline-block;
   float: left;
   width: 20%;
-  height: 100px;
   background-color: green;
 }
 .col:first-child{
