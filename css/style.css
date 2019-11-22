@@ -264,3 +264,20 @@ footer{
   margin: 0 auto;
   height: 250px;
   background-color: red;
+}
+.table::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col{
+  display: inline-block;
+  float: left;
+  width: 20%;
+  height: 100px;
+  background-color: green;
+}
+.col:first-child{
+  margin-left: 10%;
+}
