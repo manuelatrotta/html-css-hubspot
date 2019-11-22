@@ -241,3 +241,10 @@ footer{
   text-align: justify;
   margin-left: 60px;
 }
+/*section-number*/
+.number{
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #00b8a9;
+}
