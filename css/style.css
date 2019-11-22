@@ -248,3 +248,9 @@ footer{
   margin: 0 auto;
   background-color: #00b8a9;
 }
+.number .text{
+  width: 85%;
+  margin: 0 auto;
+  height: 250px;
+  background-color: pink;
+}
