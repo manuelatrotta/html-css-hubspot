@@ -123,4 +123,9 @@ footer{
 }
 .text-hero p{
   font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.text-hero span{
+ font-weight: normal;
 }
