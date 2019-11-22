@@ -130,7 +130,9 @@ footer{
  font-weight: normal;
 }
 .section-motivation{
-  background-color: blue;
   width: 100%;
   height: 500px;
+}
+.container-mot{
+  text-align: center;
 }
