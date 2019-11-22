@@ -12,7 +12,7 @@ header{
 
 main{
   width: 100%;
-  height: 500px;
+  /*height: 500px;*/
   background-color: #f5f8fa;
 }
 footer{
@@ -78,6 +78,7 @@ footer{
 }
 .hero{
   width: 85%;
+  margin: 0 auto;
 
 }
 .text-hero{
@@ -140,18 +141,27 @@ footer{
 /*section-info*/
 .info{
   width: 85%;
-  height: 300px;
+  height: 500px;
   background-color: white;
-  text-align: center;
+  margin: 0 auto;
 }
+.info::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .learn{
+  float: left;
   width: 20%;
   height: 300px;
   background-color: purple;
   display: inline-block;
+  margin: 0 10%;
 }
 .free{
-  width: 30%;
+  float: right;
+  width: 60%;
   height: 300px;
   background-color: pink;
   display: inline-block;
