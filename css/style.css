@@ -251,6 +251,11 @@ footer{
 .number .text{
   width: 85%;
   margin: 0 auto;
+  padding:0 10%;
   height: 250px;
   background-color: pink;
+  color: #fff;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
 }
