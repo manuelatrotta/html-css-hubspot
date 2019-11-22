@@ -12,7 +12,7 @@ header{
 
 main{
   width: 100%;
-  height: 200px;
+  height: 500px;
   background-color: #f5f8fa;
 }
 footer{
@@ -135,4 +135,22 @@ footer{
 }
 .container-mot{
   text-align: center;
+}
+.info{
+  width: 85%;
+  height: 300px;
+  background-color: white;
+  display: inline-block;
+}
+.learn{
+  width: 20%;
+  height: 300px;
+  background-color: purple;
+  display: inline-block;
+}
+.free{
+  width: 30%;
+  height: 300px;
+  background-color: pink;
+  display: inline-block;
 }
