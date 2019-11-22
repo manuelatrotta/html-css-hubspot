@@ -200,3 +200,23 @@ footer{
   background-color: pink;
   margin:0 auto;
 }
+.container-hub::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.hub{
+  display: inline-block;
+  background-color: red;
+  width:30%;
+  height: 200px;
+}
+.hub.marketing{
+  float: left;
+}
+.hub.service{
+  float: right;
+}
+.sales{
+  margin: 0 40px;
+}
