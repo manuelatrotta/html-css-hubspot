@@ -164,7 +164,7 @@ footer{
   display: table;
   clear: both;
 }
-
+/*learn*/
 .learn{
   float: left;
   width: 20%;
@@ -173,6 +173,7 @@ footer{
   display: inline-block;
   margin: 0 10%;
 }
+/*free*/
 .free{
   float: right;
   width: 60%;
@@ -189,6 +190,7 @@ footer{
   width: 20px;
   margin-right: 20px;
 }
+/*section-hub*/
 .section-hub{
   background-color: purple;
   width: 100%;
@@ -197,7 +199,7 @@ footer{
 .container-hub{
   width: 85%;
   background-color: pink;
-  margin:0 auto;
+  margin:10% auto;
 }
 .container-hub::after{
   content: "";
@@ -227,5 +229,11 @@ footer{
   width: 240px;
   border-spacing: 30px;
   margin-left: 60px;
+}
 
+.hub li{
+  list-style-type: circle;
+  list-style-position: inside;
+  text-align: justify;
+  margin-left: 60px;
 }
