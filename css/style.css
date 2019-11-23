@@ -313,8 +313,6 @@ footer{
 .sponsor{
   width: 85%;
   margin: 0 auto;
-  height: 400px;
-  background-color: blue;
 }
 .sponsor::after{
   content: "";
@@ -324,16 +322,30 @@ footer{
 
 .customers{
   float: left;
-  background-color: pink;
+  color: #33475b;
   width: 40%;
-  height: 200px;
-  text-align: center;
-  line-height: 50px;
-  vertical-align: 50px;
+  padding: 40px 40px;
+  text-align: justify;
+  line-height: 30px;
+  vertical-align: 30px;
+}
+.customers h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.customers p{
+  font-size: 22px;
 }
 .logo{
   float: right;
   background-color: yellow;
   width: 60%;
-  height: 200px;
+}
+.image{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+.logo img{
+  width: 125px;
 }
