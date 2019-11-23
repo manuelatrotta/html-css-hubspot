@@ -348,3 +348,26 @@ footer{
 .logo img{
   width: 125px;
 }
+.container-growing{
+  width: 85%;
+  margin: 0 auto;
+  height: 200px;
+  background-color: red;
+}
+.container-growing::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.gethusbspotfree{
+  float: left;
+  width: 40%;
+  height: 200px;
+  background-color: yellow;
+}
+.person{
+  float: right;
+  background-color: pink;
+  width: 50%;
+  height: 200px;
+}
