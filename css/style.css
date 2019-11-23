@@ -399,18 +399,15 @@ footer{
   height: 500px;
 }
 .footer-top{
-  background-color: purple;
   width: 85%;
   margin: 0 auto;
 }
 .footer-bottom{
-  background-color: pink;
   width: 85%;
   margin: 0 auto;
   height: 200px;
 }
 .container-infolink{
-  background-color: yellow;
   margin: 0 auto;
   width: 85%;
 }
@@ -421,7 +418,6 @@ footer{
 }
 .infolink{
   float: left;
-  background-color: red;
   width: 20%;
   margin: 0 23px;
   padding: 30px;
@@ -431,13 +427,31 @@ footer{
   font-weight: bold;
   color: #fff;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 .infolink li{
 text-align: justify;
 list-style: none;
+margin: 5px;
 }
 .infolink a{
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  text-transform: capitalize;
+}
+#contact{
+  background-color: #eff1f2;
+  color: #33475b;
+  border-color: #eff1f2;
+  font-size: 12px;
+  height: 40px;
+  padding: 0;
+  margin: 3px;
+  text-align: center;
+}
+.icons li{
+  display: inline-block;
+  color: #fff;
+  margin: 4px;
 }
