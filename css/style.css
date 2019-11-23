@@ -350,7 +350,7 @@ footer{
 }
 .container-growing{
   width: 85%;
-  margin: 0 auto;
+  margin: 10% auto;
 }
 .container-growing::after{
   content: "";
@@ -364,6 +364,7 @@ footer{
   line-height: 30px;
   vertical-align: 30px;
   color: #33475b;
+  padding: 50px;
 }
 .gethusbspotfree h2{
   font-size: 30px;
@@ -380,6 +381,7 @@ footer{
 }
 .person{
   float: right;
+  margin-right: 10%;
 }
 .person img{
   width: 350px;
