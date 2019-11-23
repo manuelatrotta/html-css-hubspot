@@ -351,8 +351,6 @@ footer{
 .container-growing{
   width: 85%;
   margin: 0 auto;
-  height: 200px;
-  background-color: red;
 }
 .container-growing::after{
   content: "";
@@ -362,12 +360,29 @@ footer{
 .gethusbspotfree{
   float: left;
   width: 40%;
-  height: 200px;
-  background-color: yellow;
+  text-align: justify;
+  line-height: 30px;
+  vertical-align: 30px;
+  color: #33475b;
+}
+.gethusbspotfree h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.gethusbspotfree p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.gethusbspotfree span{
+  display: block;
+  font-size: 12px;
+  margin-top: 20px;
 }
 .person{
   float: right;
-  background-color: pink;
-  width: 50%;
-  height: 200px;
+}
+.person img{
+  width: 350px;
+  text-align: center;
+  vertical-align: middle;
 }
