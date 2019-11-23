@@ -402,7 +402,6 @@ footer{
   background-color: purple;
   width: 85%;
   margin: 0 auto;
-  height:200px;
 }
 .footer-bottom{
   background-color: pink;
@@ -414,18 +413,31 @@ footer{
   background-color: yellow;
   margin: 0 auto;
   width: 85%;
-  height: 200px;
 }
 .container-infolink::after{
   content: "";
   display: table;
   clear: both;
 }
-
 .infolink{
   float: left;
   background-color: red;
   width: 20%;
-  height: 200px;
   margin: 0 23px;
+  padding: 30px;
+}
+.infolink h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.infolink li{
+text-align: justify;
+list-style: none;
+}
+.infolink a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
 }
