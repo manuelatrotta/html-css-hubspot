@@ -319,7 +319,7 @@ footer{
   display: table;
   clear: both;
 }
-
+/*customers*/
 .customers{
   float: left;
   color: #33475b;
@@ -336,6 +336,7 @@ footer{
 .customers p{
   font-size: 22px;
 }
+/*image*/
 .logo{
   float: right;
   width: 60%;
@@ -348,6 +349,7 @@ footer{
 .logo img{
   width: 125px;
 }
+/*container-growing*/
 .container-growing{
   width: 85%;
   margin: 10% auto;
@@ -357,6 +359,7 @@ footer{
   display: table;
   clear: both;
 }
+/*gethusbspotfree*/
 .gethusbspotfree{
   float: left;
   width: 40%;
@@ -379,6 +382,7 @@ footer{
   font-size: 12px;
   margin-top: 20px;
 }
+/*person*/
 .person{
   float: right;
   margin-right: 10%;
