@@ -65,6 +65,9 @@ footer{
   font-size: 14px;
   font-weight: bold;
 }
+.nav-right .list i {
+  color: #46bcce;
+}
 /*hero*/
 .hero-container{
   background-image: url(../img/jumbotron.png);
@@ -188,7 +191,7 @@ footer{
   text-transform: capitalize;
 }
 .free span img{
-  width: 20px;
+  width: 12px;
   margin-right: 20px;
 }
 /*section-hub*/
@@ -236,7 +239,7 @@ footer{
 }
 
 .hub li{
-  list-style-type: circle;
+  list-style:circle;
   list-style-position: inside;
   text-align: justify;
   margin-left: 60px;
@@ -283,10 +286,10 @@ footer{
   margin-left: 10%;
 }
 .first, .second, .third{
-  border-right: 5px solid #fff;
+  border-right: 2px solid #fff;
 }
 .fourth{
-  border-left: 5px solid #fff;
+  border-left: 2px solid #fff;
 }
 
 .table h2{
@@ -304,4 +307,33 @@ footer{
 }
 .col.fourth img{
   margin: 8px;
+}
+/*section start*/
+
+.sponsor{
+  width: 85%;
+  margin: 0 auto;
+  height: 400px;
+  background-color: blue;
+}
+.sponsor::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.customers{
+  float: left;
+  background-color: pink;
+  width: 40%;
+  height: 200px;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: 50px;
+}
+.logo{
+  float: right;
+  background-color: yellow;
+  width: 60%;
+  height: 200px;
 }
