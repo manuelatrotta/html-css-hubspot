@@ -486,7 +486,6 @@ hr{
   width: 100%;
   margin: 0 auto;
   background-color: purple;
-  display: block;
 }
 .nav-down::after{
   content:"";
