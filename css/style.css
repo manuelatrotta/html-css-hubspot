@@ -477,3 +477,31 @@ margin: 5px;
   text-transform: capitalize;
   margin: 0 50px;
 }
+hr{
+  width: 100%;
+  border-radius: 5px;
+  border: 0.5px solid #eff1f2;
+}
+.nav-down{
+  width: 100%;
+  margin: 0 auto;
+  background-color: purple;
+  display: block;
+}
+.nav-down::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+.nav-down-left{
+  float: left;
+  background-color: yellow;
+  width: 40%;
+  height: 100px;
+}
+.nav-down-right{
+  float: right;
+  background-color: red;
+  width: 40%;
+  height: 100px;
+}
