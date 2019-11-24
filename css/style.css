@@ -392,21 +392,20 @@ main{
   text-align: center;
   vertical-align: middle;
 }
+/*footer*/
 footer{
   background-color: #33475b;
   width: 100%;
-  margin: 0 auto;
-  height: 500px;
 }
 .footer-top{
   width: 85%;
-  margin: 0 auto;
+  margin-top:0 auto;
 }
 .footer-bottom{
   width: 85%;
   margin: 0 auto;
-  height: 200px;
 }
+/*container-infolink*/
 .container-infolink{
   margin: 0 auto;
   width: 85%;
@@ -440,6 +439,7 @@ margin: 5px;
   font-size: 18px;
   text-transform: capitalize;
 }
+/*button contact*/
 #contact{
   background-color: #eff1f2;
   color: #33475b;
@@ -454,4 +454,28 @@ margin: 5px;
   display: inline-block;
   color: #fff;
   margin: 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+/*footer-bottom*/
+.nav-footer{
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  vertical-align:50px;
+}
+.languages li{
+  display: inline-block;
+  list-style: none;
+}
+.languages a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #eff1f2;
+  text-transform: capitalize;
+  margin: 0 50px;
 }
