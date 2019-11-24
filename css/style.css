@@ -398,7 +398,7 @@ footer{
   width: 100%;
 }
 .footer-top{
-  width: 85%;
+  width: 100%;
   margin-top:0 auto;
 }
 .footer-bottom{
@@ -418,7 +418,7 @@ footer{
 .infolink{
   float: left;
   width: 20%;
-  margin: 0 23px;
+  margin: 0 20px;
   padding: 30px;
 }
 .infolink h3{
@@ -461,8 +461,6 @@ margin: 5px;
 .nav-footer{
   width: 100%;
   margin: 0 auto;
-  height: 100px;
-  background-color: red;
   display: inline-block;
   text-align: center;
   line-height: 50px;
