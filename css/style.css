@@ -8,7 +8,8 @@
 }
 /*main*/
 main{
-  background-color: #f5f8fa;
+  /*background-color: #f5f8fa;*/
+  background-color: #fff;
 }
 
 /*header*/
@@ -138,6 +139,7 @@ main{
 .section-motivation{
   width: 100%;
   margin-bottom: 40px;
+  background-color: #f5f8fa;
 }
 /*container-mot*/
 .container-mot{
@@ -156,6 +158,10 @@ main{
 }
 
 /*section-info*/
+.section-info{
+  width: 100%;
+  background-color: #f5f8fa;
+}
 .info{
   width: 85%;
   margin: 0 auto;
@@ -209,7 +215,6 @@ main{
 /*section-hub*/
 .section-hub{
   width: 100%;
-  height: 500px;
   background-color: #f5f8fa;
 }
 .container-hub{
@@ -251,14 +256,14 @@ main{
 }
 
 .hub li{
-    margin-left: 60px;
+  margin-left: 60px;
   list-style:circle;
   list-style-position: inside;
   text-align: justify;
 }
 /*section-number*/
 .number{
-  width: 85%;
+  width: 100%;
   margin: 0 auto;
   background-color: rgb(0, 184, 169);
 }
@@ -276,7 +281,6 @@ main{
 .table {
   width: 85%;
   margin: 0 auto;
-
 }
 
 .table::after{
