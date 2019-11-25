@@ -65,9 +65,10 @@ main{
 .hero-container{
   width: 100%;
   height: 900px;
+  margin-bottom: 0;
   background-image: url(../img/jumbotron.png);
-  background-color: #afebe4;
-  background-size: 1500px 800px;
+  background-color: #fff3ee;
+  background-size: 1450px 920px;
   background-position: 100%;
   background-repeat: no-repeat;
 }
@@ -80,6 +81,15 @@ main{
   color: #33475b;
   padding: 90px 100px;
   text-align: left;
+}
+.under-hero{
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-left: 0;
+  border-right: 0;
+  background-color: #84e3f4;
 }
 /*buttonorange*/
 .buttonorange{
