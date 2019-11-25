@@ -193,6 +193,19 @@ main{
   width: 12px;
   margin-right: 20px;
 }
+.popular{
+  position:relative;
+}
+.popular p::after{
+  content: "";
+  position: absolute;
+  height: 5px;
+  margin-left: 10px;
+  border-bottom: 1px solid #e0e6ed;
+  top: 14px;
+  left: 200px;
+  width: 50%;
+}
 /*section-hub*/
 .section-hub{
   width: 100%;
