@@ -13,21 +13,21 @@ main{
 
 /*header*/
 .header-top{
-  background-color: #f5f8fa;
   width: 100%;
   height: 100px;
+  background-color: #f5f8fa;
 }
 .header-bottom{
-  background-color: #ffffff;
   width: 100%;
   height: 100px;
+  background-color: #ffffff;
 }
 /*header.nav*/
 .header-nav{
   width: 85%;
-  margin: 0 auto;
   height: 80px;
   line-height: 80px;
+  margin: 0 auto;
 }
 .header-nav::after{
   content:"";
@@ -45,8 +45,8 @@ main{
   list-style: none;
 }
 .list li{
-  margin: 0 10px;
   display: inline;
+  margin: 0 10px;
 }
 .nav-left img{
   width: 120px;
@@ -63,63 +63,62 @@ main{
 }
 /*hero*/
 .hero-container{
+  width: 100%;
+  height: 900px;
   background-image: url(../img/jumbotron.png);
   background-color: #afebe4;
   background-size: 1500px 800px;
   background-position: 100%;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 900px;
 }
 .hero{
   width: 85%;
   margin: 0 auto;
-
 }
 .text-hero {
   width: 85%;
   color: #33475b;
-  text-align: left;
   padding: 90px 100px;
+  text-align: left;
 }
 /*buttonorange*/
 .buttonorange{
-  text-decoration: none;
-  padding: 12px;
   display: inline-block;
-  border-radius:5px;
   background-color: #ff7a59;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius:5px;
+  text-decoration: none;
   color: white;
   text-align: center;
   text-transform: uppercase;
   line-height: 22px;
-  margin-top: 10px;
 }
 .text-hero .buttonorange{
-  margin: 40px;
   display: block;
   width: 250px;
+  margin: 40px;
   padding: 20px;
 }
 /*buttonborder*/
 .buttonborder{
-  padding: 10px 30px;
   display: inline-block;
+  background-color: #fff;
   border: 2px solid orange;
   border-radius:5px;
-  background-color: #fff;
+  padding: 10px 30px;
+  line-height: 22px;
   color: orange;
   text-transform: uppercase;
-  line-height: 22px;
 }
 /*features text-hero*/
 .text-hero h1{
-  font-size: 50px;
   margin-bottom:30px;
+  font-size: 50px;
 }
 .text-hero p{
-  font-size: 20px;
   line-height: 30px;
+  font-size: 20px;
   font-weight: bold;
 }
 .text-hero span{
@@ -142,16 +141,15 @@ main{
 }
 .container-mot p{
   width: 85%;
-  font-size: 20px;
   margin-left: 10%;
-
+  font-size: 20px;
 }
-/*section-info*/
 
+/*section-info*/
 .info{
   width: 85%;
-  background-color:#fff;
   margin: 0 auto;
+  background-color:#fff;
   border: 2px solid #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 5px #dedede;
@@ -166,16 +164,14 @@ main{
   float: left;
   width: 20%;
   height: 300px;
-  text-align: center;
-  display: inline-block;
   margin: 0 10%;
+  text-align: center;
 }
 /*free*/
 .free{
   float: right;
   width: 60%;
   height: 300px;
-  display: inline-block;
   color: #33475b;
   line-height: 40px;
 }
@@ -204,16 +200,16 @@ main{
 }
 .hub{
   display: inline-block;
-  background-color: #fff;
-  color: #33475b;
   width:30%;
-  text-align: center;
-  vertical-align: middle;
   padding: 10px;
-  line-height: 30px;
+  background-color: #fff;
   border: 2px solid #fff;
   border-radius: 5px;
   box-shadow: 10px 10px 5px #dedede;
+  color: #33475b;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
 }
 .hub.marketing{
   float: left;
@@ -225,17 +221,17 @@ main{
   margin: 0 40px;
 }
 .hub hr{
-  border-width: thin;
   width: 240px;
-  border-spacing: 30px;
   margin-left: 60px;
+  border-width: thin;
+  border-spacing: 30px;
 }
 
 .hub li{
+    margin-left: 60px;
   list-style:circle;
   list-style-position: inside;
   text-align: justify;
-  margin-left: 60px;
 }
 /*section-number*/
 .number{
@@ -245,9 +241,9 @@ main{
 }
 .number .text{
   width: 85%;
+  height: 250px;
   margin: 0 auto;
   padding:0 10%;
-  height: 250px;
   color: #fff;
   line-height: 50px;
   vertical-align: middle;
@@ -317,9 +313,9 @@ main{
 /*customers*/
 .customers{
   float: left;
-  color: #33475b;
   width: 40%;
   padding: 40px 40px;
+  color: #33475b;
   text-align: justify;
   line-height: 30px;
   vertical-align: 30px;
@@ -363,11 +359,11 @@ main{
 .gethusbspotfree{
   float: left;
   width: 40%;
+  padding: 50px;
   text-align: justify;
   line-height: 30px;
   vertical-align: 30px;
   color: #33475b;
-  padding: 50px;
 }
 .gethusbspotfree h2{
   font-size: 30px;
@@ -394,8 +390,8 @@ main{
 }
 /*footer*/
 footer{
-  background-color: #33475b;
   width: 100%;
+  background-color: #33475b;
 }
 .footer-top{
   width: 100%;
@@ -422,16 +418,16 @@ footer{
   padding: 30px;
 }
 .infolink h3{
+  margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-  margin-bottom: 20px;
   text-transform: capitalize;
 }
 .infolink li{
-text-align: justify;
-list-style: none;
-margin: 5px;
+  text-align: justify;
+  list-style: none;
+  margin: 5px;
 }
 .infolink a{
   text-decoration: none;
@@ -441,27 +437,27 @@ margin: 5px;
 }
 /*button contact*/
 #contact{
+  height: 40px;
+  padding: 0;
+  margin: 3px;
   background-color: #eff1f2;
   color: #33475b;
   border-color: #eff1f2;
   font-size: 12px;
-  height: 40px;
-  padding: 0;
-  margin: 3px;
   text-align: center;
 }
 .icons li{
   display: inline-block;
-  color: #fff;
   margin: 4px;
+  color: #fff;
   text-align: center;
   vertical-align: middle;
 }
 /*footer-bottom*/
 .nav-footer{
+  display: inline-block;
   width: 100%;
   margin: 0 auto;
-  display: inline-block;
   text-align: center;
   line-height: 50px;
   vertical-align:50px;
@@ -473,11 +469,11 @@ margin: 5px;
 }
 /*languages*/
 .languages a{
+  margin: 0 50px;
   text-decoration: none;
   font-size: 16px;
   color: #eff1f2;
   text-transform: capitalize;
-  margin: 0 50px;
 }
 hr{
   width: 100%;
@@ -501,9 +497,9 @@ hr{
 }
 .nav-copyright img{
   width: 180px;
-  text-align: justify;
   margin-top: 30px;
   margin-right:200px;
+  text-align: justify;
 }
 .copyright a{
   text-decoration: none;
