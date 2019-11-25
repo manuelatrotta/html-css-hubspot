@@ -502,15 +502,19 @@ hr{
 .nav-copyright img{
   width: 180px;
   text-align: justify;
-  margin: 30px;
+  margin-top: 30px;
   margin-right:200px;
 }
 .copyright a{
   text-decoration: none;
   text-align: left;
-  line-height: 10px;
   color: #eff1f2;
   font-size: 16px;
+}
+.copyright:last-child{
+  margin-right: 180px;
+  font-size: 12px;
+  line-height: 20px;
 }
 .nav-down-right{
   float: right;
